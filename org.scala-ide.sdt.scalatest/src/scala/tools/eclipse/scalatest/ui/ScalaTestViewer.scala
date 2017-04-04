@@ -362,7 +362,7 @@ class ScalaTestViewer(parent: Composite, fTestRunnerPart: ScalaTestRunnerViewPar
 
 private class TestSessionTreeContentProvider extends ITreeContentProvider {
 
-  def dispose() {
+  override def dispose() {
   }
 
   def getChildren(parentElement: AnyRef): Array[AnyRef] = {
@@ -381,7 +381,7 @@ private class TestSessionTreeContentProvider extends ITreeContentProvider {
     element.asInstanceOf[Node].hasChildren
   }
 
-  def inputChanged(viewer: Viewer, oldInput: AnyRef, newInput: AnyRef) {
+  override def inputChanged(viewer: Viewer, oldInput: AnyRef, newInput: AnyRef) {
   }
 }
 

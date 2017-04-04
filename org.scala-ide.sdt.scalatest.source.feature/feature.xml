@@ -2,7 +2,7 @@
 <feature
       id="org.scala-ide.sdt.scalatest.source.feature"
       label="ScalaTest Scala IDE Source"
-      version="2.9.3.qualifier"
+      version="2.10.0.qualifier"
       provider-name="scala-ide.org">
 
    <description url="http://scala-ide.org/">
